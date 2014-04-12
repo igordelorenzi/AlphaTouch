@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		787815C518F977EB00D6776E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787815C418F977EB00D6776E /* Foundation.framework */; };
+		787815C718F977EB00D6776E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787815C618F977EB00D6776E /* CoreGraphics.framework */; };
+		787815C918F977EB00D6776E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787815C818F977EB00D6776E /* UIKit.framework */; };
+		787815CF18F977EB00D6776E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 787815CD18F977EB00D6776E /* InfoPlist.strings */; };
+		787815D118F977EB00D6776E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 787815D018F977EB00D6776E /* main.m */; };
+		787815D518F977EB00D6776E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 787815D418F977EB00D6776E /* AppDelegate.m */; };
+		787815D818F977EB00D6776E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787815D618F977EB00D6776E /* Main.storyboard */; };
+		787815DB18F977EB00D6776E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787815DA18F977EB00D6776E /* ViewController.m */; };
+		787815DD18F977EB00D6776E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787815DC18F977EB00D6776E /* Images.xcassets */; };
+		787815E418F977EB00D6776E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787815E318F977EB00D6776E /* XCTest.framework */; };
+		787815E518F977EB00D6776E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787815C418F977EB00D6776E /* Foundation.framework */; };
+		787815E618F977EB00D6776E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787815C818F977EB00D6776E /* UIKit.framework */; };
+		787815EE18F977EB00D6776E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 787815EC18F977EB00D6776E /* InfoPlist.strings */; };
+		787815F018F977EB00D6776E /* AlphaTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 787815EF18F977EB00D6776E /* AlphaTouchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		787815E718F977EB00D6776E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 787815B918F977EB00D6776E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 787815C018F977EB00D6776E;
+			remoteInfo = AlphaTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		787815C118F977EB00D6776E /* AlphaTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		787815C418F977EB00D6776E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		787815C618F977EB00D6776E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		787815C818F977EB00D6776E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		787815CC18F977EB00D6776E /* AlphaTouch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlphaTouch-Info.plist"; sourceTree = "<group>"; };
+		787815CE18F977EB00D6776E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		787815D018F977EB00D6776E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		787815D218F977EB00D6776E /* AlphaTouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlphaTouch-Prefix.pch"; sourceTree = "<group>"; };
+		787815D318F977EB00D6776E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		787815D418F977EB00D6776E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		787815D718F977EB00D6776E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		787815D918F977EB00D6776E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		787815DA18F977EB00D6776E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		787815DC18F977EB00D6776E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		787815E218F977EB00D6776E /* AlphaTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		787815E318F977EB00D6776E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		787815EB18F977EB00D6776E /* AlphaTouchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlphaTouchTests-Info.plist"; sourceTree = "<group>"; };
+		787815ED18F977EB00D6776E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		787815EF18F977EB00D6776E /* AlphaTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlphaTouchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		787815BE18F977EB00D6776E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787815C718F977EB00D6776E /* CoreGraphics.framework in Frameworks */,
+				787815C918F977EB00D6776E /* UIKit.framework in Frameworks */,
+				787815C518F977EB00D6776E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787815DF18F977EB00D6776E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787815E418F977EB00D6776E /* XCTest.framework in Frameworks */,
+				787815E618F977EB00D6776E /* UIKit.framework in Frameworks */,
+				787815E518F977EB00D6776E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		787815B818F977EB00D6776E = {
+			isa = PBXGroup;
+			children = (
+				787815CA18F977EB00D6776E /* AlphaTouch */,
+				787815E918F977EB00D6776E /* AlphaTouchTests */,
+				787815C318F977EB00D6776E /* Frameworks */,
+				787815C218F977EB00D6776E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		787815C218F977EB00D6776E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				787815C118F977EB00D6776E /* AlphaTouch.app */,
+				787815E218F977EB00D6776E /* AlphaTouchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		787815C318F977EB00D6776E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				787815C418F977EB00D6776E /* Foundation.framework */,
+				787815C618F977EB00D6776E /* CoreGraphics.framework */,
+				787815C818F977EB00D6776E /* UIKit.framework */,
+				787815E318F977EB00D6776E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		787815CA18F977EB00D6776E /* AlphaTouch */ = {
+			isa = PBXGroup;
+			children = (
+				787815D318F977EB00D6776E /* AppDelegate.h */,
+				787815D418F977EB00D6776E /* AppDelegate.m */,
+				787815D618F977EB00D6776E /* Main.storyboard */,
+				787815D918F977EB00D6776E /* ViewController.h */,
+				787815DA18F977EB00D6776E /* ViewController.m */,
+				787815DC18F977EB00D6776E /* Images.xcassets */,
+				787815CB18F977EB00D6776E /* Supporting Files */,
+			);
+			path = AlphaTouch;
+			sourceTree = "<group>";
+		};
+		787815CB18F977EB00D6776E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				787815CC18F977EB00D6776E /* AlphaTouch-Info.plist */,
+				787815CD18F977EB00D6776E /* InfoPlist.strings */,
+				787815D018F977EB00D6776E /* main.m */,
+				787815D218F977EB00D6776E /* AlphaTouch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		787815E918F977EB00D6776E /* AlphaTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				787815EF18F977EB00D6776E /* AlphaTouchTests.m */,
+				787815EA18F977EB00D6776E /* Supporting Files */,
+			);
+			path = AlphaTouchTests;
+			sourceTree = "<group>";
+		};
+		787815EA18F977EB00D6776E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				787815EB18F977EB00D6776E /* AlphaTouchTests-Info.plist */,
+				787815EC18F977EB00D6776E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		787815C018F977EB00D6776E /* AlphaTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 787815F318F977EB00D6776E /* Build configuration list for PBXNativeTarget "AlphaTouch" */;
+			buildPhases = (
+				787815BD18F977EB00D6776E /* Sources */,
+				787815BE18F977EB00D6776E /* Frameworks */,
+				787815BF18F977EB00D6776E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlphaTouch;
+			productName = AlphaTouch;
+			productReference = 787815C118F977EB00D6776E /* AlphaTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		787815E118F977EB00D6776E /* AlphaTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 787815F618F977EB00D6776E /* Build configuration list for PBXNativeTarget "AlphaTouchTests" */;
+			buildPhases = (
+				787815DE18F977EB00D6776E /* Sources */,
+				787815DF18F977EB00D6776E /* Frameworks */,
+				787815E018F977EB00D6776E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				787815E818F977EB00D6776E /* PBXTargetDependency */,
+			);
+			name = AlphaTouchTests;
+			productName = AlphaTouchTests;
+			productReference = 787815E218F977EB00D6776E /* AlphaTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		787815B918F977EB00D6776E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Igor Andrade";
+				TargetAttributes = {
+					787815E118F977EB00D6776E = {
+						TestTargetID = 787815C018F977EB00D6776E;
+					};
+				};
+			};
+			buildConfigurationList = 787815BC18F977EB00D6776E /* Build configuration list for PBXProject "AlphaTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 787815B818F977EB00D6776E;
+			productRefGroup = 787815C218F977EB00D6776E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				787815C018F977EB00D6776E /* AlphaTouch */,
+				787815E118F977EB00D6776E /* AlphaTouchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		787815BF18F977EB00D6776E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787815DD18F977EB00D6776E /* Images.xcassets in Resources */,
+				787815CF18F977EB00D6776E /* InfoPlist.strings in Resources */,
+				787815D818F977EB00D6776E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787815E018F977EB00D6776E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787815EE18F977EB00D6776E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		787815BD18F977EB00D6776E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787815DB18F977EB00D6776E /* ViewController.m in Sources */,
+				787815D518F977EB00D6776E /* AppDelegate.m in Sources */,
+				787815D118F977EB00D6776E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787815DE18F977EB00D6776E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787815F018F977EB00D6776E /* AlphaTouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		787815E818F977EB00D6776E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 787815C018F977EB00D6776E /* AlphaTouch */;
+			targetProxy = 787815E718F977EB00D6776E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		787815CD18F977EB00D6776E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				787815CE18F977EB00D6776E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		787815D618F977EB00D6776E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				787815D718F977EB00D6776E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		787815EC18F977EB00D6776E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				787815ED18F977EB00D6776E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		787815F118F977EB00D6776E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		787815F218F977EB00D6776E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		787815F418F977EB00D6776E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlphaTouch/AlphaTouch-Prefix.pch";
+				INFOPLIST_FILE = "AlphaTouch/AlphaTouch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		787815F518F977EB00D6776E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlphaTouch/AlphaTouch-Prefix.pch";
+				INFOPLIST_FILE = "AlphaTouch/AlphaTouch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		787815F718F977EB00D6776E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AlphaTouch.app/AlphaTouch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlphaTouch/AlphaTouch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AlphaTouchTests/AlphaTouchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		787815F818F977EB00D6776E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AlphaTouch.app/AlphaTouch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlphaTouch/AlphaTouch-Prefix.pch";
+				INFOPLIST_FILE = "AlphaTouchTests/AlphaTouchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		787815BC18F977EB00D6776E /* Build configuration list for PBXProject "AlphaTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787815F118F977EB00D6776E /* Debug */,
+				787815F218F977EB00D6776E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		787815F318F977EB00D6776E /* Build configuration list for PBXNativeTarget "AlphaTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787815F418F977EB00D6776E /* Debug */,
+				787815F518F977EB00D6776E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		787815F618F977EB00D6776E /* Build configuration list for PBXNativeTarget "AlphaTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787815F718F977EB00D6776E /* Debug */,
+				787815F818F977EB00D6776E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 787815B918F977EB00D6776E /* Project object */;
+}
