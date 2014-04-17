@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class NextViewController;
+
 @interface ViewController : UIViewController
+
+@property (strong, nonatomic) NextViewController *nextVC;
 
 @end

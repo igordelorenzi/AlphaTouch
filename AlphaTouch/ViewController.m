@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NextViewController.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)openNextVC
+{
+    self.nextVC = [[NextViewController alloc] initWithNibName:@"NextViewController" bundle:nil];
+    [self presentViewController:self.nextVC animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

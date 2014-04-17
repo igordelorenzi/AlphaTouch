@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		780986B218FF702300242F77 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 780986B118FF702300242F77 /* ViewController.xib */; };
+		780986B618FF746D00242F77 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780986B418FF746D00242F77 /* NextViewController.m */; };
+		780986B718FF746D00242F77 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 780986B518FF746D00242F77 /* NextViewController.xib */; };
 		787815C518F977EB00D6776E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787815C418F977EB00D6776E /* Foundation.framework */; };
 		787815C718F977EB00D6776E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787815C618F977EB00D6776E /* CoreGraphics.framework */; };
 		787815C918F977EB00D6776E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787815C818F977EB00D6776E /* UIKit.framework */; };
 		787815CF18F977EB00D6776E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 787815CD18F977EB00D6776E /* InfoPlist.strings */; };
 		787815D118F977EB00D6776E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 787815D018F977EB00D6776E /* main.m */; };
 		787815D518F977EB00D6776E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 787815D418F977EB00D6776E /* AppDelegate.m */; };
-		787815D818F977EB00D6776E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787815D618F977EB00D6776E /* Main.storyboard */; };
 		787815DB18F977EB00D6776E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787815DA18F977EB00D6776E /* ViewController.m */; };
 		787815DD18F977EB00D6776E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787815DC18F977EB00D6776E /* Images.xcassets */; };
 		787815E418F977EB00D6776E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787815E318F977EB00D6776E /* XCTest.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		780986B118FF702300242F77 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		780986B318FF746D00242F77 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		780986B418FF746D00242F77 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		780986B518FF746D00242F77 /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
 		787815C118F977EB00D6776E /* AlphaTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		787815C418F977EB00D6776E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		787815C618F977EB00D6776E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +50,6 @@
 		787815D218F977EB00D6776E /* AlphaTouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlphaTouch-Prefix.pch"; sourceTree = "<group>"; };
 		787815D318F977EB00D6776E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		787815D418F977EB00D6776E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		787815D718F977EB00D6776E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		787815D918F977EB00D6776E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		787815DA18F977EB00D6776E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		787815DC18F977EB00D6776E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -112,11 +117,12 @@
 		787815CA18F977EB00D6776E /* AlphaTouch */ = {
 			isa = PBXGroup;
 			children = (
-				787815D318F977EB00D6776E /* AppDelegate.h */,
-				787815D418F977EB00D6776E /* AppDelegate.m */,
-				787815D618F977EB00D6776E /* Main.storyboard */,
 				787815D918F977EB00D6776E /* ViewController.h */,
 				787815DA18F977EB00D6776E /* ViewController.m */,
+				780986B118FF702300242F77 /* ViewController.xib */,
+				780986B318FF746D00242F77 /* NextViewController.h */,
+				780986B418FF746D00242F77 /* NextViewController.m */,
+				780986B518FF746D00242F77 /* NextViewController.xib */,
 				787815DC18F977EB00D6776E /* Images.xcassets */,
 				787815CB18F977EB00D6776E /* Supporting Files */,
 			);
@@ -126,6 +132,8 @@
 		787815CB18F977EB00D6776E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				787815D318F977EB00D6776E /* AppDelegate.h */,
+				787815D418F977EB00D6776E /* AppDelegate.m */,
 				787815CC18F977EB00D6776E /* AlphaTouch-Info.plist */,
 				787815CD18F977EB00D6776E /* InfoPlist.strings */,
 				787815D018F977EB00D6776E /* main.m */,
@@ -229,8 +237,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				787815DD18F977EB00D6776E /* Images.xcassets in Resources */,
+				780986B718FF746D00242F77 /* NextViewController.xib in Resources */,
 				787815CF18F977EB00D6776E /* InfoPlist.strings in Resources */,
-				787815D818F977EB00D6776E /* Main.storyboard in Resources */,
+				780986B218FF702300242F77 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				787815DB18F977EB00D6776E /* ViewController.m in Sources */,
+				780986B618FF746D00242F77 /* NextViewController.m in Sources */,
 				787815D518F977EB00D6776E /* AppDelegate.m in Sources */,
 				787815D118F977EB00D6776E /* main.m in Sources */,
 			);
@@ -280,14 +290,6 @@
 				787815CE18F977EB00D6776E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		787815D618F977EB00D6776E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				787815D718F977EB00D6776E /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		787815EC18F977EB00D6776E /* InfoPlist.strings */ = {
@@ -456,6 +458,7 @@
 				787815F518F977EB00D6776E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		787815F618F977EB00D6776E /* Build configuration list for PBXNativeTarget "AlphaTouchTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +467,7 @@
 				787815F818F977EB00D6776E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

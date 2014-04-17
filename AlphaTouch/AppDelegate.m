@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
@@ -17,14 +18,14 @@
   self.window = [[UIWindow alloc] initWithFrame:viewRect];
   
   // Paintbrush
-  UIViewController *colorTouchVC = [[UIViewController alloc] init];
+  self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
   
   // Paint
-  UIView *colorView = [[UIView alloc] initWithFrame:viewRect];
-  colorView.backgroundColor = [UIColor yellowColor];
-  colorTouchVC.view = colorView;
+//  UIView *colorView = [[UIView alloc] initWithFrame:viewRect];
+//  colorView.backgroundColor = [UIColor yellowColor];
+//  self.viewController.view = colorView;
   
-  self.window.rootViewController = colorTouchVC;
+  self.window.rootViewController = self.viewController;
   [self.window makeKeyAndVisible];
   
   NSLog(@"Screen is %f tall and %f wide",
